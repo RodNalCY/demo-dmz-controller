@@ -1,0 +1,28 @@
+table {
+    /* Not required only for visualizing */
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table thead tr th {
+    /* Important */
+    position: sticky;
+    z-index: 8;
+    top: 0;
+  }
+  td {
+    /* Not required only for visualizing */
+    padding: 1em;
+  }
+  .scroll-infinity{
+      position: relative; 
+      overflow: auto; 
+      height: 340px;
+  }
+  
+  
+  #head-table-static{
+    position: sticky;
+    z-index: 8;
+    top: 0;
+  }

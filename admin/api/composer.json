@@ -1,0 +1,19 @@
+{
+    "name": "rond/woocomers-api",
+    "description": "Demo API Woocomers",
+    "license": "MTI",
+    "autoload": {
+        "psr-4": {
+            "Rond\\WoocomersApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "RodNalCY",
+            "email": "rodnalcabello07@gmail.com"
+        }
+    ],
+    "require": {
+        "automattic/woocommerce": "^3.0"
+    }
+}

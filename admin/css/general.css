@@ -1,0 +1,538 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .content_banner {
+        display: none !important;
+    }
+    #nav-color {
+        background-color: white !important;
+    }
+
+    .img-slider {
+        width: auto !important;
+        height: 400px;
+    }
+
+    .footer_menu {
+        display: none !important;
+    }
+
+    .texto_bienvenida {
+        color: inherit;
+        font-family: "Anton", sans-serif;
+        font-size: 24px;
+    }
+    .text-mensaje {
+        font-size: 15px !important;
+        color: white;
+    }
+
+    .texto_cards {
+        margin-top: 12px;
+        font-family: "Anton", sans-serif;
+        font-size: 24px;
+    }
+
+    .texto_cards_imagen {
+        color: #212529;
+        font-family: "Anton", sans-serif;
+        font-size: 24px;
+    }
+
+    .texto_admision_card {
+        margin-top: 12px;
+        font-family: "Anton", sans-serif;
+        font-size: 24px;
+    }
+
+    .text-admision {
+        font-size: 17px !important;
+    }
+
+    .btn-boletin-pdf {
+        float: right;
+        padding: 10px;
+        font-size: 18px;
+        margin-bottom: 24px;
+    }
+
+    .convenios_div {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .convenios_logo {
+        width: 165px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .card-noticia {
+        height: auto;
+        width: 327px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .texto_bienvenida {
+        color: inherit;
+        font-family: "Anton", sans-serif;
+        font-size: 34px;
+    }
+    .texto_cards {
+        margin-top: 12px;
+        font-family: "Anton", sans-serif;
+        font-size: 24px;
+    }
+
+    .texto_cards_imagen {
+        color: #212529;
+        font-family: "Anton", sans-serif;
+        font-size: 28px;
+    }
+
+    .texto_admision_card {
+        margin-top: 12px;
+        font-family: "Anton", sans-serif;
+        font-size: 28px;
+    }
+
+    .btn-boletin-pdf {
+        float: right;
+        padding: 10px;
+        font-size: 18px;
+        margin-bottom: 24px;
+    }
+
+    .convenios_div {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .convenios_logo {
+        width: 165px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .text-mensaje {
+        font-size: 18px !important;
+        color: white;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 50px;
+    }
+
+    #nav-color {
+        background-color: #212529 !important;
+    }
+
+    .nav-color-menu {
+        color: white !important;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .menu-center {
+        width: auto !important;
+    }
+    .navbar-brand {
+        display: none !important;
+    }
+
+    .texto_bienvenida {
+        color: inherit;
+        font-family: "Anton", sans-serif;
+        font-size: 34px;
+    }
+
+    .texto_cards {
+        margin-top: 12px;
+        font-family: "Anton", sans-serif;
+        font-size: 30px;
+    }
+
+    .texto_cards_imagen {
+        color: #212529;
+        font-family: "Anton", sans-serif;
+        font-size: 30px;
+    }
+
+    .texto_admision_card {
+        margin-top: 12px;
+        font-family: "Anton", sans-serif;
+        font-size: 30px;
+    }
+
+    .btn-boletin-pdf {
+        float: right;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .link_portal_responsive {
+        display: none;
+    }
+    .text-mensaje {
+        font-size: 18px !important;
+        color: white;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 50px;
+    }
+
+    #nav-color {
+        background-color: #212529 !important;
+    }
+
+    .nav-color-menu {
+        color: white !important;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .menu-center {
+        width: auto !important;
+    }
+
+    .navbar-brand {
+        display: none !important;
+    }
+
+    .texto_bienvenida {
+        color: inherit;
+        font-family: "Anton", sans-serif;
+        font-size: 34px;
+    }
+
+    .texto_cards {
+        margin-top: 12px;
+        font-family: "Anton", sans-serif;
+        font-size: 30px;
+    }
+
+    .texto_cards_imagen {
+        color: #212529;
+        font-family: "Anton", sans-serif;
+        font-size: 30px;
+    }
+
+    .texto_admision_card {
+        margin-top: 12px;
+        font-family: "Anton", sans-serif;
+        font-size: 30px;
+    }
+
+    .btn-boletin-pdf {
+        float: right;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .link_portal_responsive {
+        display: none;
+    }
+
+    .text-mensaje {
+        font-size: 18px !important;
+        color: white;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 50px;
+    }
+
+    #nav-color {
+        background-color: #212529 !important;
+    }
+
+    .nav-color-menu {
+        color: white !important;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .menu-center {
+        width: auto !important;
+    }
+
+    .navbar-brand {
+        display: none !important;
+    }
+
+    .texto_bienvenida {
+        color: inherit;
+        font-family: "Anton", sans-serif;
+        font-size: 34px;
+    }
+
+    .texto_cards {
+        margin-top: 12px;
+        font-family: "Anton", sans-serif;
+        font-size: 30px;
+    }
+
+    .texto_cards_imagen {
+        color: #212529;
+        font-family: "Anton", sans-serif;
+        font-size: 30px;
+    }
+
+    .texto_admision_card {
+        margin-top: 12px;
+        font-family: "Anton", sans-serif;
+        font-size: 30px;
+    }
+
+    .btn-boletin-pdf {
+        float: right;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .convenios_div {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .convenios_logo {
+        width: 195px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .link_portal_responsive {
+        display: none;
+    }
+    .text-mensaje {
+        font-size: 22px !important;
+        color: white;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 50px;
+    }
+    .card-noticia {
+        height: auto;
+        width: 300px;
+    }
+
+    #nav-color {
+        background-color: #212529 !important;
+    }
+
+    .nav-color-menu {
+        color: white !important;
+    }
+}
+
+.imagen_responsive {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+}
+
+.imagen_responsive_portal {
+    width: 100%;
+    max-width: 83px;
+    height: auto;
+}
+
+.texto_admision {
+    color: #f1c40f;
+    font-family: "Anton", sans-serif;
+    font-size: 34px;
+}
+
+.texto_menu {
+    font-family: "Anton", sans-serif;
+    font-size: 17px;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.texto_informes {
+    color: #212529;
+    font-family: "Anton", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.text_name_director {
+    color: #212529;
+    font-family: "Anton", sans-serif;
+    font-weight: 500;
+}
+
+.footer_text {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px !important;
+}
+
+.texto_contactanos {
+    color: rgb(241, 196, 15);
+    font-family: "Anton", sans-serif;
+    font-size: 22px;
+}
+
+.card_text_body {
+    background-color: #f1c40f;
+}
+
+.admision {
+    padding: 40px 10px 30px 10px;
+    background-color: lightyellow;
+    border-radius: 5px;
+}
+
+.texto_admision_horario {
+    font-family: "Anton", sans-serif;
+    font-size: 24px;
+}
+.scroll-to-top {
+    display: none;
+}
+
+.text_nav_item {
+    color: #212529 !important;
+}
+.text_nav_item:hover {
+    background-color: #212529 !important;
+    color: #fff !important;
+}
+
+.text_noticias {
+    font-family: "Anton", sans-serif;
+}
+
+.texto_p_serial {
+    font-family: "Open Sans", Arial, sans-serif;
+    color: #777;
+    line-height: 24px;
+    margin: 0 0 20px;
+}
+
+/* --- --- CAROUSEL --- --- */
+
+.carousel__contenedor {
+    position: relative;
+}
+
+.carousel__anterior,
+.carousel__siguiente {
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 35px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: none;
+    color: #f1c40f;
+}
+
+.carousel__anterior:hover,
+.carousel__siguiente:hover {
+    opacity: 100%;
+    color: #212529;
+}
+
+.carousel__anterior {
+    left: -22px;
+}
+
+.carousel__siguiente {
+    right: -22px;
+}
+
+.carousel__lista {
+    overflow: hidden;
+}
+
+.carousel__elemento {
+    text-align: center;
+}
+
+.carousel__indicadores .glider-dot {
+    display: block;
+    width: 30px;
+    height: 4px;
+    background: #f1c40f;
+    opacity: 0.2;
+    border-radius: 0;
+}
+
+.carousel__indicadores .glider-dot:hover {
+    opacity: 0.5;
+}
+
+.carousel__indicadores .glider-dot.active {
+    opacity: 1;
+}
+
+@media screen and (max-width: 800px) {
+    .contenido-principal {
+        flex-direction: column;
+    }
+
+    .contenido-principal > * {
+        width: 100%;
+    }
+}
+
+/* Shine */
+
+figure {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    overflow: hidden;
+}
+figure:hover + span {
+    bottom: -36px;
+    opacity: 1;
+}
+
+/* Shine */
+.shine-efect figure {
+    position: relative;
+}
+.shine-efect figure::before {
+    position: absolute;
+    top: 0;
+    left: -75%;
+    z-index: 2;
+    display: block;
+    content: "";
+    width: 50%;
+    height: 100%;
+    background: -webkit-linear-gradient(
+        left,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.3) 100%
+    );
+    background: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.3) 100%
+    );
+    -webkit-transform: skewX(-25deg);
+    transform: skewX(-25deg);
+}
+.shine-efect figure:hover::before {
+    -webkit-animation: shine 0.75s;
+    animation: shine 0.75s;
+}
+@-webkit-keyframes shine {
+    100% {
+        left: 125%;
+    }
+}
+@keyframes shine {
+    100% {
+        left: 125%;
+    }
+}

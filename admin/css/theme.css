@@ -1,0 +1,170 @@
+
+.slider-container .main-label {
+	color: #FFF;
+	font-size: 62px;
+	line-height: 62px;
+	font-weight: 800;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.slider-container .featured-label {
+	color: #FFF;
+	font-size: 52px;
+	line-height: 52px;
+	font-weight: 800;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.slider-container .bottom-label {
+	color: #FFF;
+	font-size: 20px;
+	line-height: 20px;
+	font-weight: 300;
+}
+
+.slider-container .blackboard-text {
+	color: #BAB9BE;
+	font-size: 46px;
+	line-height: 46px;
+	font-family: "Shadows Into Light", cursive;
+	text-transform: uppercase;
+}
+
+.slider-container .btn-slider-action {
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 20px;
+	padding: 20px 25px;
+}
+
+.slider-container .top-label-dark, .slider-container .main-label-dark, .slider-container .bottom-label-dark {
+	color: #333;
+}
+
+.slider-container .tp-caption-dark a {
+	color: #333;
+}
+
+.slider-container .tp-caption-dark a:hover {
+	color: #333;
+}
+
+.slider-container .tp-caption-overlay {
+	background: #000;
+	padding: 10px;
+}
+
+.slider-container .tp-caption-overlay-opacity {
+	background: rgba(0, 0, 0, 0.4);
+	padding: 10px;
+}
+
+.slider-container .tp-opacity-overlay {
+	background: rgba(0, 0, 0, 0.85);
+}
+
+.slider-container.transparent {
+	background-color: transparent;
+}
+
+.slider-container.light {
+	background-color: #EAEAEA;
+}
+
+.slider-container.light .tp-bannershadow {
+	opacity: 0.05;
+	top: 0;
+	bottom: auto;
+	z-index: 1000;
+}
+
+.slider-container.light .featured-label, .slider-container.light .top-label, .slider-container.light .main-label, .slider-container.light .bottom-label {
+	color: #333;
+}
+
+.slider-container.light .tp-caption a {
+	color: #333;
+}
+
+.slider-container.light .tp-caption a:hover {
+	color: #333;
+}
+
+/* Slider IE Fix */
+html.ie .forcefullwidth_wrapper_tp_banner {
+	overflow: hidden;
+}
+
+/* Slider With Overlay */
+.slider-with-overlay {
+	position: relative;
+}
+
+.slider-with-overlay .slider-container {
+	z-index: auto;
+}
+
+/* Slider Contact Form */
+.slider-contact-form {
+	margin: -45px 0 25px;
+}
+
+.slider-contact-form .featured-box {
+	text-align: left;
+}
+
+.slider-contact-form label.error {
+	display: none !important;
+}
+
+.slider-contact-form .alert {
+	padding: 6px;
+	text-align: center;
+}
+
+.slider-contact-form textarea {
+	resize: none;
+}
+
+/* Responsive */
+@media (min-width: 992px) {
+	.slider-contact-form {
+		margin: 0;
+		position: absolute;
+		top: 20px;
+		z-index: 99;
+		width: 100%;
+	}
+}
+/* Boxed */
+html.boxed .slider-container {
+	width: 100% !important;
+	left: auto !important;
+}
+
+/* Home Slider - Nivo Slider */
+.nivo-slider {
+	position: relative;
+}
+
+.nivo-slider .theme-default .nivoSlider {
+	border-radius: 10px 10px 0px 0px;
+	box-shadow: none;
+	margin-top: 10px;
+}
+
+.nivo-slider .theme-default .nivoSlider img {
+	border-radius: 10px 10px 0px 0px;
+}
+
+.nivo-slider .theme-default .nivo-controlNav {
+	margin-top: -72px;
+	position: absolute;
+	z-index: 100;
+	right: 5px;
+	bottom: -17px;
+}
+
+.nivo-slider .theme-default .nivo-caption {
+	padding-left: 20px;
+}
